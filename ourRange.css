@@ -1,0 +1,142 @@
+body{
+    background-color: rgba(250, 210, 224,0.4);
+  }
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: stretch;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 50px;
+}
+
+.header {
+  list-style-type: none;
+  margin: 0;
+  padding: 8px;
+  font-family: 'Playfair Display', serif;
+  color: #120639;
+}
+
+.introduction {
+  padding: 8px;
+  margin-bottom: 7px;
+  font-family: 'Open Sans', sans-serif;
+  color: #120639;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.img-btn-container {
+  display: flex;
+  align-content: center;
+  margin-right: 30px;
+  padding: 20px;
+}
+
+button{
+  height: 80px;  
+  width: 80px;
+  margin-top: 60px;
+  margin-left: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.white-line {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+.introduction {
+   padding-top: 20px;
+   padding-bottom: 20px; 
+}
+
+/*TOPNAV*/
+
+  /*Responsiveness*/
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* When the screen is less than 660 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 682px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 682px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+  /* Add a pink background color to the top navigation */
+  .topnav {
+      font-family: 'Open Sans', sans-serif;
+      overflow: hidden;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #120639;
+      font-family: 'Open Sans', sans-serif;
+      overflow: hidden;
+      text-align: center;
+      padding: 10px 12px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      font-size: 20px;
+    }
+  
+    /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+ /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      border-bottom: 2px solid;
+      border-bottom-color: #120639;
+      font-weight: bold;
+    }
+  
+  /* Make company name bigger & different font */
+  .topnav a.title{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    padding: 14px 16px;
+    margin-top:-8px;
+    margin-right:60px;
+  }
