@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="ourRange.css">
+    <title>Our range</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+      
+      
+      <title>Cake Co. Our Range</title>
+      
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+  <a role ="button" href="https://sophie-chr.github.io/cake-co/index.html" class="title">Cake Co.</a>
+  <a role ="button" href="https://sophie-chr.github.io/cake-co/ourRange.html" class="active">Our Range</a>
+  <a role ="button" href="https://sophie-chr.github.io/cake-co/bespoke.html">Bespoke</a>
+  <a role = "button" href="https://sophie-chr.github.io/cake-co/subscription.html">Subscription</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+  
+  <div class="row">
+  <div class="col-5 menu">
+    <div class="header">
+    <h2>Our Range
+    </h2>
+  </div>
+    <div class="introduction"
+         <p>Client on the options below to select from our range
+    </p>
+  </div>
+  </div>
+  
+  
+
+   <div class="main-container">
+      <div class="img-btn-container">
+        <img src="https://assets.winni.in/product/primary/2021/8/53442.jpeg?dpr=2&w=220" alt="">
+        <button class="button">Add to basket</button>
+      </div>
+      <div class="img-btn-container">
+        <img src="https://thisdelicioushouse.com/wp-content/uploads/2019/05/fullsizeoutput_3ba0-360x360.jpeg" alt="">
+        <button class="button">Add to basket</button>
+      </div>
+      <div class="img-btn-container">
+        <img src="https://bodasyweddings.com/wp-content/uploads/2016/02/Tendencias-en-pasteles-de-bodas-de-4-pisos.jpg" alt="">
+        <button class="button">Add to basket</button>
+      </div>
+      <div class="img-btn-container">
+        <img src="https://mygluten-freekitchen.com/wp-content/uploads/2019/05/sq-Gluten-free-Chocolate-Strawberry-Layer-Cake-480x480.jpg" alt="">
+        <button class="button">Add to basket</button>
+      </div>
+   </div>
+</body>
+</html>
