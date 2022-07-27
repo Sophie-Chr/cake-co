@@ -5,7 +5,7 @@ function ajaxpost () {
  
   // (B) AJAX REQUEST
   // (B1) POST DATA TO SERVER, RETURN RESPONSE AS TEXT
-  fetch("1c-server.html", { method:"POST", body:data })
+  fetch("Subscription.html", { method:"POST", body:data })
   .then(res=>res.text())
  
   // (B2) SHOW MESSAGE ON SERVER RESPONSE
