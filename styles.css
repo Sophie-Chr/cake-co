@@ -43,10 +43,17 @@ h5{
 }
 
 /*Responsive carousel*/
+@media screen and (min-width:700px) {
+  .tidy{
+    margin-left:10%;
+    margin-right:10%;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .tidy{
-    margin-left:400px;
-    margin-right:400px;
+    margin-left:25%;
+    margin-right:25%;
   }
 }
 
