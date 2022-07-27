@@ -41,23 +41,13 @@ h5{
   img {
   border-radius: 0%;
 }
-/* row of images*/
 
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+/*Responsive carousel*/
+@media screen and (min-width:1024px) {
+  .tidy{
+    margin-left:400px;
+    margin-right:400px;
+  }
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
