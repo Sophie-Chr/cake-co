@@ -18,7 +18,7 @@
       <title>Cake co. Subscription</title>
       
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
       
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -116,6 +116,49 @@ input[type=submit]:hover {
 </div>
       
        <!--END OF NAVBAR CODE-->
+
+
+<h2>Monthly Cake Subscription</h2>
+<p>Complete your details below to sign up for our monthly cake delivery straight to your door. We will contact you directly for your address and payment</p>
+      
+      <div class ="container">
+  <form id="myForm" onsubmit="return ajaxpost()">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+</div>
+<div class="col-75">
+  <input type="text" id="name" name="name" placeholder="Your name.." required>
+    </div>
+</div>
+<div class="row">
+  <div class="col-25">
+    <label for="email">Email</label>
+</div>
+<div class="col-75">
+  <input type="text" id="email" name="email" placeholder="You email address.." required>
+    </div>
+</div>
+<div class="row">
+      <div class="col-25">
+        <label for="country">Choose the flavour for your first delivery</label>
+      </div>
+      <div class="col-75">
+        <select id="Flavour" name="Flavour">
+          <option placeholder="Flavour"></option>
+          <option value="chocolate">Chocolate</option>
+          <option value="caramel">Caramel</option>
+          <option value="red velvet">Red Velvet</option>
+          <option value="vanilla">Vanilla</option>
+          <option value="Surprise Me">Surprise Me</option>
+        </select>
+          
+        </div>
+</div>
+<input type="submit" value="submit"/>
+  </form>
+
+  
 
 
 <h2>Monthly Cake Subscription</h2>
